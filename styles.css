@@ -1,0 +1,207 @@
+body {
+    font-family:  Arial, Helvetica, sans-serif; ;
+}
+
+main {
+    min-height: 1024px;
+    background-color: #9ad1e5;
+
+}
+
+.header-container {
+    background-color: #00729b;
+    min-height: 150px;
+}
+
+header {
+    max-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+}
+
+
+.navbutton1,
+.navbutton2,
+.navbutton3,
+.navbutton4 {
+    border: 1px solid;
+    padding: 11px 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0px, 2px, 2px rgba(0, 0, 0, 0.228);
+}
+
+.navbutton1 {
+    background-color: #fff0bf;
+}
+
+.navbutton2 {
+    background-color: #fac4c4;
+}
+
+.navbutton3 {
+    background-color: #c2eae1;
+}
+
+.navbutton4 {
+    background-color: #ffcbeb;
+}
+
+
+.navbutton1:hover {
+    background-color: #fbc411;
+    color: white;
+    transition-duration: 1s;
+}
+
+.navbutton2:hover {
+    background-color: #fa6666;
+    color: white;
+    transition-duration: 1s;
+}
+
+.navbutton3:hover {
+    background-color: #44c9ac;
+    color: white;
+    transition-duration: 1s;
+}
+
+.navbutton4:hover {
+    background-color: #f167bc;
+    color: white;
+    transition-duration: 1s;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.welcome {
+    height: 380px;
+    background-image: url("Sunshine-bg-wel.jpg");
+    background-size: cover;
+
+}
+
+.welcome h1 {
+    color: #611973;
+    text-align: right;
+    padding: 2.75rem;
+    font-size: 75px;
+    font-family: "Spicy Rice", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #deb52f;
+    margin-bottom: 16px;
+    margin-top: 100px;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+
+table th {
+     background-color: #00729b;
+    color: #fff; 
+    text-align: left;
+}
+
+
+#GalleryTitle {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #fb8484;
+    margin-top: 100px;
+    margin-bottom: 16px;
+}
+
+.grid-container {
+    min-height: 500px;
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 0 auto; 
+
+    
+}
+
+.col {
+    max-height: 450px;
+    max-width: 750px;
+    background-color: rgb(0, 114, 155);
+
+
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+}
+
+.col p {
+    color: white;
+    font-size: 0.825rem;
+    text-align: center;
+    padding: 20px 25px;
+    line-height: 1.25rem;
+}
+
+
+
+footer {
+    min-height: 100px;
+    background-color: aquamarine;
+}
+
+
+/* Media queries for desktops */
+@media (min-width: 900px) {
+    .header-container header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    table {
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+
+}
+
+/* Media queries for mobile */ 
+@media (max-width:600px) {
+
+    
+
+}
+
