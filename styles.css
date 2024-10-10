@@ -6,11 +6,7 @@
     font-family: 'Mazzard.otf';
     src: url(fonts/Mazzard.otf);
   }
-  .flex-container{
-  display: flex;
-  width: 100%;
-  gap: 20px;
-  }
+
 
 body {
     font-family:  Arial, Helvetica, sans-serif; ;
@@ -195,7 +191,70 @@ footer {
     background-color: aquamarine;
 }
 
-
+.flex-container{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    }
+    .Announcements{
+        flex: 1;
+        text-indent: 10px;
+        border-radius: 20px;
+        background-color:rgb(248, 248, 233);
+        margin:10px;
+    }
+    .Announcements h2{
+        text-align: center;
+        font-size: 30px;
+        font-family: "Mazzard.otf";
+        color: rgb(191, 191, 30);
+        margin-bottom:0;
+    }
+    .Announcements summary{
+        text-indent: 10px;
+        font-size: 25px;
+        font-family: "Mazzard.otf";
+        color: yellowgreen !important;
+        margin-bottom:0;
+        margin-top: 5px;
+    }
+    .Announcements p{
+        padding-left: 14px;
+        padding-right: 10px;
+        font-size:12px ;
+        font-family: "ShineBubble";
+        color: lightpink;
+        margin-top: 0;
+    }
+    
+    .PR{
+        border-radius: 20px;
+        text-indent: 10px;
+        background-color:rgb(248, 248, 233);
+        flex: 1;
+        margin: 10px;
+    }
+    .PR h2{
+        font-size: 30px;
+        text-align: center;
+        font-family: "Mazzard.otf";
+        color: rgb(191, 191, 30);
+        margin-bottom:10px;
+    }
+    .PRlinks a:link, a:visited{
+        color: lightpink !important; 
+        margin:0;
+        display: block;
+        text-align: center;
+        font-family: "ShineBubble";
+        font-size:15px ;
+    
+    }
+     
+    .PRlinks a:hover{
+        color: rgb(244, 176, 186) !important;
+    
+    }
 /* Media queries for desktops */
 @media (min-width: 900px) {
     .header-container header {
