@@ -255,6 +255,44 @@ footer {
         color: rgb(244, 176, 186) !important;
     
     }
+    
+    .Teacher-info{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+        gap: 10px;
+
+ }
+ .Teacher-info h3{
+    font-size: 20px;
+    font-family: "ShineBubble";
+    text-align: center;
+    color:lightpink;
+ }
+ .Teacher-info a{
+    color: rgb(209, 229, 236);
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+ }
+ .Teacher-info a:link, a:visited{
+    font-family:"Mazzard.otf";
+    color:rgb(149, 195, 210);
+    background-color: rgb(240, 240, 240);
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+ }
+.Teacher-info a:hover{
+    color: lightblue;
+    background-color: rgb(230, 230, 230);
+}
+ .Teacher img{
+    width:100%;
+    height: auto;
+
+}
 /* Media queries for desktops */
 @media (min-width: 900px) {
     .header-container header {
