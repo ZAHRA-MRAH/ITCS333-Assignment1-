@@ -8,9 +8,9 @@
   }
 
 
-body {
+/*body {
     font-family:  Arial, Helvetica, sans-serif; ;
-}
+}*/
 
 main {
     min-height: 1024px;
@@ -191,70 +191,73 @@ footer {
     background-color: aquamarine;
 }
 
-.flex-container{
-    display: flex;
-    width: 100%;
-    gap: 20px;
-    }
-    .Announcements{
-        flex: 1;
-        text-indent: 10px;
-        border-radius: 20px;
-        background-color:rgb(248, 248, 233);
-        margin:10px;
-    }
-    .Announcements h2{
-        text-align: center;
-        font-size: 30px;
-        font-family: "Mazzard.otf";
-        color: rgb(191, 191, 30);
-        margin-bottom:0;
-    }
-    .Announcements summary{
-        text-indent: 10px;
-        font-size: 25px;
-        font-family: "Mazzard.otf";
-        color: yellowgreen !important;
-        margin-bottom:0;
-        margin-top: 5px;
-    }
-    .Announcements p{
-        padding-left: 14px;
-        padding-right: 10px;
-        font-size:12px ;
-        font-family: "ShineBubble";
-        color: lightpink;
-        margin-top: 0;
-    }
-    
-    .PR{
-        border-radius: 20px;
-        text-indent: 10px;
-        background-color:rgb(248, 248, 233);
-        flex: 1;
-        margin: 10px;
-    }
-    .PR h2{
-        font-size: 30px;
-        text-align: center;
-        font-family: "Mazzard.otf";
-        color: rgb(191, 191, 30);
-        margin-bottom:10px;
-    }
-    .PRlinks a:link, a:visited{
-        color: lightpink !important; 
-        margin:0;
-        display: block;
-        text-align: center;
-        font-family: "ShineBubble";
-        font-size:15px ;
-    
-    }
-     
-    .PRlinks a:hover{
-        color: rgb(244, 176, 186) !important;
-    
-    }
+
+  .flex-container{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  }
+.Announcements{
+    flex: 1;
+    text-indent: 10px;
+    border-radius: 20px;
+    background-color:rgb(248, 248, 233);
+    margin:10px;
+}
+.Announcements h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Mazzard.otf";
+    color: #A0D683;
+    margin-bottom:0;
+}
+.Announcements summary{
+    text-indent: 10px;
+    font-size: 25px;
+    font-family: "Mazzard.otf";
+    color: #91c5f0 !important;
+    margin-bottom:0;
+    margin-top: 5px;
+}
+.Announcements p{
+    padding-left: 14px;
+    padding-right: 10px;
+    font-size:12px ;
+    font-family: "ShineBubble";
+    color: #E4B9B4;
+    margin-top: 0;
+}
+
+.PR{
+    border-radius: 20px;
+    text-indent: 10px;
+    background-color:rgb(248, 248, 233);
+    flex: 1;
+    margin: 10px;
+}
+.PR h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Mazzard.otf";
+    color: #A0D683;
+    margin-bottom:10px;
+}
+.PRlinks a:link, a:visited{
+    color: #E4B9B4 !important; 
+    margin:0;
+    display: block;
+    text-align: center;
+    font-family: "ShineBubble";
+    font-size:15px ;
+    text-decoration-color: #E4B9B4 ;
+
+}
+ 
+.PRlinks a:hover{
+    color: #F1AC7E !important;
+    text-decoration-color: #F1AC7E;
+}
+
 
  .Teacher-info{
         display: grid;
@@ -266,37 +269,75 @@ footer {
     font-size: 20px;
     font-family: "ShineBubble";
     text-align: center;
-    color:lightpink;
+    color:#E4B9B4;
  }
- .Teacher-info a{
-    color: rgb(209, 229, 236);
-    margin: 0 auto;
-    display: block;
-    width: fit-content;
- }
- .Teacher-info a:link, a:visited{
-    font-family:"Mazzard.otf";
-    color:rgb(149, 195, 210);
-    background-color: rgb(240, 240, 240);
-    padding: 10px 16px;
+ .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #91c5f0;
+    background-color: #eaeaea;
     text-align: center;
-    text-decoration: none;
-    display: block;
-    border-radius: 10px;
- }
-.Teacher-info a:hover{
-    color: lightblue;
-    background-color: rgb(230, 230, 230);
-}
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color:#e1e0e0;
+    color: #91c5f0;
+  }
 .Teacher-info p{
-    font-family: "Mazzard.otf";
-    color: black;
+    font-family: "ShineBubble";
+    color:#A0D683 ;
     text-align: center;
+    font-size: 15px;
 }
  .Teacher img{
     width:100%;
     height: auto;
 
+}
+ h2{
+    margin-top: 10px;
+    color:#A0D683;
+    font-family: "Mazzard.otf";
+    text-align: center;
+ }
+ footer{
+    background-color: #f4f4f9;
+    font-family: "Mazzard.otf";
+    font-size: 20px;
+    text-align: center;
+    color: (33, 33, 33);
+ }
+
+ .row p{
+    font-size:20px ;
+    text-indent: 10px;
+    margin-top: 2px;
+    padding: 1 rem 0;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+.row a{
+    font-family: "Mazzard.otf";
+    font-size:20px ;
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+    margin: 10px;
+}
+.row img{
+    width: 25px;
+    margin: 10px;
+}
+
+
+ @media(max-width:600px){
+    .Teacher-info{
+        grid-template-columns: 1fr;
+
+    }
 }
 /* Media queries for desktops */
 @media (min-width: 900px) {
