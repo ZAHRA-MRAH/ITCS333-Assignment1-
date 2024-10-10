@@ -1,10 +1,10 @@
 @font-face {
     font-family:'ShineBubble';
-    src: url(fonts/ShineBubble.ttf);
+    src: url(Fontsused/ShineBubble.ttf);
   }
   @font-face {
     font-family: 'Mazzard.otf';
-    src: url(fonts/Mazzard.otf);
+    src: url(Fontsused/Mazzard.otf);
   }
 
 
@@ -186,10 +186,10 @@ table th {
 
 
 
-footer {
+/*footer {
     min-height: 100px;
     background-color: aquamarine;
-}
+}*/
 
 
   .flex-container{
@@ -333,12 +333,12 @@ footer {
 }
 
 
- @media(max-width:600px){
+ /*@media(max-width:600px){
     .Teacher-info{
         grid-template-columns: 1fr;
 
     }
-}
+}*/
 /* Media queries for desktops */
 @media (min-width: 900px) {
     .header-container header {
