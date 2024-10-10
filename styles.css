@@ -255,8 +255,8 @@ footer {
         color: rgb(244, 176, 186) !important;
     
     }
-    
-    .Teacher-info{
+
+ .Teacher-info{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
         gap: 10px;
@@ -287,6 +287,11 @@ footer {
 .Teacher-info a:hover{
     color: lightblue;
     background-color: rgb(230, 230, 230);
+}
+.Teacher-info p{
+    font-family: "Mazzard.otf";
+    color: black;
+    text-align: center;
 }
  .Teacher img{
     width:100%;
