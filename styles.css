@@ -16,14 +16,15 @@ body {
 main {
     min-height: 1024px;
     max-width: max-content;
-
+    padding-top: 0px !important;
 
 }
 
 
 .header-container {
-    background-color: #ADE8FF;
+    background-image:url('Photos used/Sunshine-bg-wel\ -\ Copy.jpg');
     min-height: 150px;
+
 }
 
 header {
@@ -47,58 +48,57 @@ header {
 .navbutton2,
 .navbutton3,
 .navbutton4 {
-    /*border: 1px solid;*/
+    
     padding: 11px 25px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: inline-block;
     position: relative;
+    font-family: "Mazzard.otf";
     border-radius: 4px;
     box-shadow: 0px, 2px, 2px rgba(0, 0, 0, 0.228);
-    font-family: "Mazzard.otf";
-    
 }
 
 .navbutton1 {
-    background-color: #FFD166;
+    background-color: #ffedc2;
 }
 
 .navbutton2 {
-    background-color: #FFD166;
+    background-color: #ffcbeb;
 }
 
 .navbutton3 {
-    background-color: #FFD166;
+    background-color: #dcf0d1;
 }
 
 .navbutton4 {
-    background-color: #FFD166;
+    background-color: #ffd6d6;
 }
 
-
 .navbutton1:hover {
-    background-color: #fbc411;
+    background-color: #ffc233;
     color: white;
     transition-duration: 1s;
 }
 
 .navbutton2:hover {
-    background-color: #fbc411;
+    background-color: #ff8589;
     color: white;
     transition-duration: 1s;
 }
 
 .navbutton3:hover {
-    background-color: #fbc411;
+    background-color: #8acc66;
     color: white;
     transition-duration: 1s;
 }
 
 .navbutton4:hover {
-    background-color: #fbc411;
+    background-color: #ff5c5c;
     color: white;
     transition-duration: 1s;
 }
+
 
 
 #navlink {
@@ -119,15 +119,18 @@ header {
     font-family: 'ShineBubble';
     font-weight: 500;
     font-style: normal;
+    background-image:url('Photos used/Sunshine-bg-wel.jpg');
+    background-size: cover;
+    
 }
 
 caption {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    color: #A0D683;
+    color: #ff8589;
     margin-bottom: 16px;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 table {
@@ -137,7 +140,7 @@ table {
     border: 2px solid #1A535C;
     border-radius: 8px;
     vertical-align: middle;
-    background-color: #FFFCF2 !important;
+    background-color: #FFFCF2;
 }
 
 tr{
@@ -161,7 +164,7 @@ table th {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    color: #A0D683;
+    color: #ff8589;
     margin-top: 100px;
     margin-bottom: 16px;
 }
@@ -180,8 +183,7 @@ table th {
 .col {
     max-height: 450px;
     max-width: 750px;
-    background-color: rgb(248, 248, 233);
-
+    background-color: #ffedc2;
 
 }
 
@@ -191,7 +193,7 @@ table th {
 }
 
 .col p {
-    color: black;
+    color: #ff8589;
     font-size: 0.900rem;
     text-align: center;
     padding: 20px 25px;
@@ -204,13 +206,14 @@ table th {
     display: flex;
     width: 100%;
     gap: 20px;
+    margin-top: 20px;
 }
 
 .Announcements {
     flex: 1;
     text-indent: 10px;
     border-radius: 20px;
-    background-color: rgb(248, 248, 233);
+    background-color: #FFFCF2;
     margin: 10px;
 }
 
@@ -218,7 +221,7 @@ table th {
     text-align: center;
     font-size: 30px;
     font-family: "Mazzard.otf";
-    color: #A0D683;
+    color: #ff8589;
     margin-bottom: 0;
 }
 
@@ -226,9 +229,9 @@ table th {
     text-indent: 10px;
     font-size: 25px;
     font-family: "Mazzard.otf";
-    color: #91c5f0 !important;
+    color: #FFD166 !important;
     margin-bottom: 0;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .Announcements p {
@@ -236,14 +239,14 @@ table th {
     padding-right: 10px;
     font-size: 12px;
     font-family: "ShineBubble";
-    color: #E4B9B4;
+    color: #A0D683;
     margin-top: 0;
 }
 
 .PR {
     border-radius: 20px;
     text-indent: 10px;
-    background-color: rgb(248, 248, 233);
+    background-color: #FFFCF2;
     flex: 1;
     margin: 10px;
 }
@@ -252,26 +255,26 @@ table th {
     font-size: 30px;
     text-align: center;
     font-family: "Mazzard.otf";
-    color: #A0D683;
+    color: #ff8589;
     margin-bottom: 10px;
 }
 
 .PRlinks a:link,
 a:visited {
-    color: #E4B9B4;
+    color: #FFD166;
     margin: 0;
     display: block;
     text-align: center;
     font-family: "ShineBubble";
     font-size: 15px;
-    text-decoration-color: #E4B9B4;
+    text-decoration-color: #FFD166;
     text-decoration: none;
 
 }
 
 .PRlinks a:hover {
-    color: #F1AC7E !important;
-    text-decoration-color: #F1AC7E;
+    color: #FFC233 !important;
+    text-decoration-color: #FFC233;
 }
 
 
@@ -283,10 +286,11 @@ a:visited {
 }
 
 .Teacher-info h3 {
-    font-size: 20px;
-    font-family: "ShineBubble";
+    font-size: 25px;
+    font-family: "Mazzard.otf";
     text-align: center;
-    color: #E4B9B4;
+    color: #A0D683;
+    margin-bottom: 1px;
 }
 
 .button {
@@ -294,21 +298,21 @@ a:visited {
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
-    background-color: #FF6B6B;
+    color: #ffffff ;
+    background-color: #FFD966 ;
     text-align: center;
     cursor: pointer;
     width: 100%;
 }
 
 .button:hover {
-    background-color: #e1e0e0;
-    color: #91c5f0;
+    background-color: #FFC107 ;
+    color: #f5f5f5;
 }
 
 .Teacher-info p {
-    font-family: "ShineBubble";
-    color: #A0D683;
+    font-family: "Mazzard.otf";
+    color: #FFB6B9;
     text-align: center;
     font-size: 20px;
 }
@@ -319,15 +323,15 @@ a:visited {
 
 }
 
-h2 {
+#teacher-information {
     margin-top: 10px;
-    color: #A0D683;
+    color: #ff8589;
     font-family: "Mazzard.otf";
     text-align: center;
 }
 
 footer {
-    background-color: #f4f4f9;
+    background-color: #f5f5f5;
     font-family: "Mazzard.otf";
     font-size: 20px;
     text-align: center;
@@ -339,7 +343,7 @@ footer {
     text-indent: 10px;
     margin-top: 2px;
     padding: 1 rem 0;
-    background-color: #f4f4f9;
+    background-color: #f5f5f5;
     text-align: center;
 }
 
@@ -357,13 +361,6 @@ footer {
 }
 
 
-/*@media(max-width:600px){
-    .Teacher-info{
-        grid-template-columns: 1fr;
-
-    }
-}*/
-
 /* Media queries for desktops */
 @media (min-width: 900px) {
     .header-container header {
@@ -379,43 +376,51 @@ footer {
 
 
 }
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
 
-/* Media queries for mobile */
-@media (max-width:400px) {
+    .logo {
+        width: 150px; /* Adjust logo size for mobile */
+        height: 150px;
+    }
 
     .navbutton1,
     .navbutton2,
     .navbutton3,
     .navbutton4 {
-        padding: 5px 5px;
-        /* Adjust padding for smaller buttons */
-        margin-left: 0;
-        /* Reduce margin for better spacing */
-        margin-right: 1px;
-        font-size: 12px;
-        /* Smaller font size */
-        width: 100px;
-        height: 50px;
-        margin: 10px 0;
-        /* Vertical margin for buttons */
-        display: block;
-        /* Make buttons block elements */
-        width: 100%;
-        /* Optional: make buttons full width */
-
+        margin: 5px 0; /* Stack buttons vertically */
+        padding: 8px 15px; /* Adjust padding */
+        width: 100%; /* Make buttons full-width */
     }
+}
 
-    header {
+/* Media queries for mobile */
+@media (max-width:400px) {
+
+    @media (max-width: 480px) {
+        .navbutton1,
+        .navbutton2,
+        .navbutton3,
+        .navbutton4 {
+            font-size: 14px; /* Adjust font size for smaller screens */
+        }
+
+    /*header {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 100%;
     }
 
 
     .header-container {
         min-height: 100px;
         min-width: auto;
-
+        text-align: center;
         position: relative;
     }
 
@@ -426,7 +431,7 @@ footer {
         height: 90px;
         margin-left: auto;
         margin-right: auto;
-    }
+    }*/
 
     #navlink {
         font-size: 9px;
@@ -440,9 +445,14 @@ footer {
         position: relative;
     }
 
-    table {
-        width: 20%;
+    
+    .flex-container{
+        flex-direction: column;
+        font-size: smaller;
+    
     }
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
 
-
+    }
 }
