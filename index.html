@@ -8,15 +8,11 @@
     <link rel="stylesheet" href="styles.css">
     <!--Pico css framework-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-
+    <!--A header with a navigation menu and logo -->
     <div class="header-container">
         <header>
             <div class="logo">
@@ -26,21 +22,21 @@
 
             <nav>
 
-                <div class="navbutton1" >
-                    <a href="#schedule">Weekly Schedule</a>
+                <div class="navbutton1">
+                    <a href="#schedule" id="navlink">Weekly Schedule</a>
 
                 </div>
 
                 <div class="navbutton2">
-                    <a href="#GalleryTitle">Photo Gallery</a>
+                    <a href="#GalleryTitle" id="navlink">Photo Gallery</a>
                 </div>
 
                 <div class="navbutton3">
-                    <a href="#">Announcements</a>
+                    <a href="#announcements" id="navlink">Announcements and parent resources</a>
                 </div>
 
                 <div class="navbutton4">
-                    <a href="#">Teacher Info</a>
+                    <a href="#teacher-information" id="navlink">Teacher Info</a>
                 </div>
 
             </nav>
@@ -49,14 +45,16 @@
     </div>
     <main>
 
-
+        <!--A welcome message-->
         <div class="welcome">
-            <h1>Welcome to Sunshine Kindergarten!</h1>
+            <h1>Welcome to Sunshine Kindergarten</h1>
         </div>
 
+
+        <!--Weekly schedule-->
         <div id="#schedule">
             <table>
-                <caption >Our Weekly Schedule</caption>
+                <caption>Our Weekly Schedule</caption>
                 <thead>
                     <tr>
                         <th><!-- Intentionally Blank --></th>
@@ -134,73 +132,77 @@
 
 
 
-        
-            <p id="GalleryTitle">Class Activities Photo Gallery</p>
+        <!--Photo gallery of class activities-->
+        <p id="GalleryTitle">Class Activities Photo Gallery</p>
 
-            <div class="grid-container">
-
-
-                <div class="col">
-                    <img src="Photos used/children-painting-brightly-stockcake.jpg" alt="">
-                    <p>Arts and crafts day at sunshine </p>
-                </div>
+        <div class="grid-container">
 
 
-
-
-                <div class="col">
-                    <img src="Photos used/class-circle-time-stockcake.jpg" alt="">
-                    <p> Storytelling at circle time</p>
-                </div>
-
-
-
-
-                <div class="col">
-                    <img src="Photos used/kids-classroom-activity-stockcake.jpg" alt="">
-                    <p> Quiet activities: The students engaged in coloring activities in the classroom </p>
-                </div>
-
-
-
-
-                <div class="col">
-                    <img src="Photos used/playground-stockcake.jpg" alt="">
-                    <p>Playground activities: The children enjoy a sunny day filled with laughter and games</p>
-                </div>
-
+            <div class="col">
+                <img src="Photos used/children-painting-brightly-stockcake.jpg" alt="">
+                <p>Arts and crafts day at sunshine </p>
             </div>
-            <div class="flex-container">
-                <div class="Announcements">
-                    <h2>Announcements</h2>
-                    <div>
-                        <details open>
-                            <summary>Parents Teacher Day</summary>
-                            <p>Come visit Parent Teacher day at Sunshine kindergarten this Thursday from 12pm til 7pm!</p>
-                        </details>
-        
-                <hr />
-                <details open>
-                    <summary>Sports Day</summary>
-                    <p>Sunshine kindergarten will be conducting a sports day!</p>
-                </details>
-        
-                <hr />
-                        <details open>
-                            <summary>Color Day</summary>
-                            <p>Join us for Art Day this Friday! We'll be painting, drawing, and crafting all morning. Please bring an old t-shirt for your child to wear while painting.</p>
-                        </details>
-                <hr />
-                        <details open>
-                            <summary>Career Day</summary>
-                            <p>Next Wedensday Sunshine Kindergarten will be hosting a career day for the children. Parents are encouraged to attend in their work uniform to inspire the little ones!</p>
-                        </details>
-                    </div>
-                </div> 
-                
-                <div class="PR">
-                    <h2>Parents Resources</h2>
-                    <div class="PRlinks">
+
+
+
+
+            <div class="col">
+                <img src="Photos used/class-circle-time-stockcake.jpg" alt="">
+                <p> Storytelling at circle time</p>
+            </div>
+
+
+
+
+            <div class="col">
+                <img src="Photos used/kids-classroom-activity-stockcake.jpg" alt="">
+                <p> Quiet activities: The students engaged in coloring activities in the classroom </p>
+            </div>
+
+
+
+
+            <div class="col">
+                <img src="Photos used/playground-stockcake.jpg" alt="">
+                <p>Playground activities: The children enjoy a sunny day filled with laughter and games</p>
+            </div>
+
+        </div>
+
+        <!--Parent resources or announcements-->
+        <div class="flex-container">
+            <div class="Announcements">
+                <h2 id="announcements">Announcements</h2>
+                <div>
+                    <details open>
+                        <summary>Parents Teacher Day</summary>
+                        <p>Come visit Parent Teacher day at Sunshine kindergarten this Thursday from 12pm til 7pm!</p>
+                    </details>
+
+                    <hr />
+                    <details open>
+                        <summary>Sports Day</summary>
+                        <p>Sunshine kindergarten will be conducting a sports day!</p>
+                    </details>
+
+                    <hr />
+                    <details open>
+                        <summary>Color Day</summary>
+                        <p>Join us for Art Day this Friday! We'll be painting, drawing, and crafting all morning. Please
+                            bring an old t-shirt for your child to wear while painting.</p>
+                    </details>
+                    <hr />
+                    <details open>
+                        <summary>Career Day</summary>
+                        <p>Next Wedensday Sunshine Kindergarten will be hosting a career day for the children. Parents
+                            are encouraged to attend in their work uniform to inspire the little ones!</p>
+                    </details>
+                </div>
+            </div>
+
+            <div class="PR">
+                <h2 id="parent-resource">Parents Resources</h2>
+                <div class="PRlinks">
                     <a href="#">Worksheets for KG1</a><br>
                     <a href="#">Worksheets for KG2</a><br>
                     <a href="#">Coloring exercises</a><br>
@@ -209,61 +211,64 @@
                     <a href="#">Reccomended Story Books</a><br>
                     <a href="#">Learn The Shapes</a><br>
                     <a href="#">New Parent guidebook</a><br>
-                
-                   </div>
+
                 </div>
             </div>
-            <h2>Meet our Teachers:</h2>  
-               <section class="Teacher-info">
-                
-                <article class="Teacher">
-                    <figure>
-                        <img src="Photos used/chatimage3.png">
-                        <figcaption>
-                            <h3>Mrs.Smith</h3>
-                            <p> Teacher Introduction </p>
-                          <p><button class="button">Contact Me!</button></p>
-                        </figcaption>
-                    </figure>
-                </article>
-                <article class="Teacher">
-                    <figure>
-                        <img src="Photos used/Chatimage1.png">
-                        <figcaption>
-                            <h3>Ms.Henry</h3>
-                            <p>Teacher Introduction</p>
-                          <p><button class="button"> Contact Me!</button></p>
-                        </figcaption>
-                    </figure>
-                </article>
-                <article class="Teacher">
-                    <figure>
-                        <img src="Photos used/chatimage2.png">
-                        <figcaption>
-                            <h3>Mrs.Ramirez</h3>
-                            <p>Teacher Introduction</p>
-                          <p><button class="button"> Contact Me!</button></p>
-                            
-                    </figure>
-                </article>
-               </section>
-               
-      
+        </div>
+
+        <!--Information about the teacher-->
+        <h2 id="teacher-information">Meet our Teachers:</h2>
+        <section class="Teacher-info">
+
+            <article class="Teacher">
+                <figure>
+                    <img src="Photos used/chatimage3.png">
+                    <figcaption>
+                        <h3>Mrs.Smith</h3>
+                        <p> Teacher Introduction </p>
+                        <p><button class="button">Contact Me!</button></p>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="Teacher">
+                <figure>
+                    <img src="Photos used/Chatimage1.png">
+                    <figcaption>
+                        <h3>Ms.Henry</h3>
+                        <p>Teacher Introduction</p>
+                        <p><button class="button"> Contact Me!</button></p>
+                    </figcaption>
+                </figure>
+            </article>
+            <article class="Teacher">
+                <figure>
+                    <img src="Photos used/chatimage2.png">
+                    <figcaption>
+                        <h3>Mrs.Ramirez</h3>
+                        <p>Teacher Introduction</p>
+                        <p><button class="button"> Contact Me!</button></p>
+
+                </figure>
+            </article>
+        </section>
+
+
     </main>
-    <footer>     
-            <div class="footer">
-        <div class="row">
-        <a href="https://www.instagram.com/"><img src="https://cdn-icons-png.flaticon.com/256/1384/1384031.png" ></a>
-        
-        </div>
-        
-        <div class="row">
-        <a href="info@SunshineKindergarten.com">Contact us: info@SunshineKindergarten.com</a>
-        </div>
-        
-        <div class="row">
-        <p>Sunshine Kindergarten © 2024 All rights reserved</p>
-        </div>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="https://www.instagram.com/"><img
+                        src="https://cdn-icons-png.flaticon.com/256/1384/1384031.png"></a>
+
+            </div>
+
+            <div class="row">
+                <a href="info@SunshineKindergarten.com">Contact us: info@SunshineKindergarten.com</a>
+            </div>
+
+            <div class="row">
+                <p>Sunshine Kindergarten © 2024 All rights reserved</p>
+            </div>
         </div>
     </footer>
 
