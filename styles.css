@@ -1,25 +1,27 @@
 @font-face {
-    font-family:'ShineBubble';
+    font-family: 'ShineBubble';
     src: url(Fontsused/ShineBubble.ttf);
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: 'Mazzard.otf';
     src: url(Fontsused/Mazzard.otf);
-  }
+}
 
 
-/*body {
-    font-family:  Arial, Helvetica, sans-serif; ;
-}*/
+body {
+    font-family: "Mazzard.otf"
+}
 
 main {
     min-height: 1024px;
-    padding-top: 0;
+    max-width: max-content;
+
 
 }
 
 .header-container {
-    background-color: #ADE8FF;
+    background-color: #f4f4f9;
     min-height: 150px;
 }
 
@@ -36,6 +38,7 @@ header {
 .logo {
     width: 250px;
     height: 250px;
+
 }
 
 
@@ -45,8 +48,8 @@ header {
 .navbutton4 {
     /*border: 1px solid;*/
     padding: 11px 25px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: inline-block;
     position: relative;
     border-radius: 4px;
@@ -97,26 +100,22 @@ header {
 }
 
 
-a {
+#navlink {
     text-decoration: none;
     color: #1A535C;
 
 }
 
 .welcome {
-    height: 380px;
-    background-image: url("Photos used/Sunshine-bg-wel.jpg");
-    background-size: cover;
-
+    height: 250px;
 }
 
 .welcome h1 {
-    color: #FF6B6B;
-    text-align: right;
-    text-indent: 90px;
+    color: #b757cf;
+    text-align: center;
     padding: 2.75rem;
-    font-size: 75px;
-    font-family: "ShineBubble";
+    font-size: 50px;
+    font-family: 'ShineBubble';
     font-weight: 500;
     font-style: normal;
 }
@@ -125,13 +124,13 @@ caption {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    color: #deb52f;
+    color: #A0D683;
     margin-bottom: 16px;
     margin-top: 100px;
 }
 
 table {
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
     border-collapse: separate;
     border: 1px solid black;
@@ -140,8 +139,8 @@ table {
 
 
 table th {
-     background-color: #00729b;
-    color: #fff; 
+    background-color: rgb(248, 248, 233);
+    color: #91c5f0;
     text-align: left;
 }
 
@@ -150,7 +149,7 @@ table th {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    color: #fb8484;
+    color: #A0D683;
     margin-top: 100px;
     margin-bottom: 16px;
 }
@@ -159,18 +158,18 @@ table th {
     min-height: 500px;
     max-width: 1024px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
-    margin: 0 auto; 
+    margin: 0 auto;
 
-    
+
 }
 
 .col {
     max-height: 450px;
     max-width: 750px;
-    background-color: rgb(0, 114, 155);
-    margin: 10px;
+    background-color: rgb(248, 248, 233);
+
 
 }
 
@@ -180,93 +179,105 @@ table th {
 }
 
 .col p {
-    color: white;
-    font-size: 0.825rem;
+    color: black;
+    font-size: 0.900rem;
     text-align: center;
     padding: 20px 25px;
     line-height: 1.25rem;
+
 }
 
-  .flex-container{
-  display: flex;
-  width: 100%;
-  gap: 20px;
-  }
-.Announcements{
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.Announcements {
     flex: 1;
     text-indent: 10px;
     border-radius: 20px;
-    background-color:rgb(248, 248, 233);
-    margin:10px;
+    background-color: rgb(248, 248, 233);
+    margin: 10px;
 }
-.Announcements h2{
+
+.Announcements h2 {
     text-align: center;
     font-size: 30px;
     font-family: "Mazzard.otf";
     color: #A0D683;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
-.Announcements summary{
+
+.Announcements summary {
     text-indent: 10px;
     font-size: 25px;
     font-family: "Mazzard.otf";
     color: #91c5f0 !important;
-    margin-bottom:0;
+    margin-bottom: 0;
     margin-top: 5px;
 }
-.Announcements p{
+
+.Announcements p {
     padding-left: 14px;
     padding-right: 10px;
-    font-size:12px ;
+    font-size: 12px;
     font-family: "ShineBubble";
     color: #E4B9B4;
     margin-top: 0;
 }
 
-.PR{
+.PR {
     border-radius: 20px;
     text-indent: 10px;
-    background-color:rgb(248, 248, 233);
+    background-color: rgb(248, 248, 233);
     flex: 1;
     margin: 10px;
 }
-.PR h2{
+
+.PR h2 {
     font-size: 30px;
     text-align: center;
     font-family: "Mazzard.otf";
     color: #A0D683;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-.PRlinks a:link, a:visited{
-    color: #E4B9B4 !important; 
-    margin:0;
+
+.PRlinks a:link,
+a:visited {
+    color: #E4B9B4;
+    margin: 0;
     display: block;
     text-align: center;
     font-family: "ShineBubble";
-    font-size:15px ;
-    text-decoration-color: #E4B9B4 ;
+    font-size: 15px;
+    text-decoration-color: #E4B9B4;
+    text-decoration: none;
 
 }
- 
-.PRlinks a:hover{
+
+.PRlinks a:hover {
     color: #F1AC7E !important;
     text-decoration-color: #F1AC7E;
 }
 
 
- .Teacher-info{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
-        gap: 10px;
+.Teacher-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
 
- }
- .Teacher-info h3{
+}
+
+.Teacher-info h3 {
     font-size: 20px;
     font-family: "ShineBubble";
     text-align: center;
-    color:#E4B9B4;
- }
- .button {
+    color: #E4B9B4;
+}
+
+.button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -276,64 +287,71 @@ table th {
     text-align: center;
     cursor: pointer;
     width: 100%;
-  }
-  
-  .button:hover {
-    background-color:#FF5C5C;
-    color: white;
-  }
-.Teacher-info p{
-    font-family: "Mazzard.otf";
-    color:#A0D683 ;
+}
+
+.button:hover {
+    background-color: #e1e0e0;
+    color: #91c5f0;
+}
+
+.Teacher-info p {
+    font-family: "ShineBubble";
+    color: #A0D683;
     text-align: center;
     font-size: 20px;
 }
- .Teacher img{
-    width:100%;
+
+.Teacher img {
+    width: 100%;
     height: auto;
 
 }
- h2{
+
+h2 {
     margin-top: 10px;
-    color:#A0D683;
+    color: #A0D683;
     font-family: "Mazzard.otf";
     text-align: center;
- }
- footer{
+}
+
+footer {
     background-color: #f4f4f9;
     font-family: "Mazzard.otf";
     font-size: 20px;
     text-align: center;
     color: (33, 33, 33);
- }
+}
 
- .row p{
-    font-size:20px ;
+.row p {
+    font-size: 20px;
     text-indent: 10px;
     margin-top: 2px;
     padding: 1 rem 0;
     background-color: #f4f4f9;
     text-align: center;
 }
-.row a{
+
+.row a {
     font-family: "Mazzard.otf";
-    font-size:20px ;
+    font-size: 20px;
     text-decoration: none;
     color: rgb(33, 33, 33);
     margin: 10px;
 }
-.row img{
+
+.row img {
     width: 25px;
     margin: 10px;
 }
 
 
- /*@media(max-width:600px){
+/*@media(max-width:600px){
     .Teacher-info{
         grid-template-columns: 1fr;
 
     }
 }*/
+
 /* Media queries for desktops */
 @media (min-width: 900px) {
     .header-container header {
@@ -343,17 +361,76 @@ table th {
     }
 
     table {
-        width: 80%;
+        width: 75%;
         margin: 2rem auto;
     }
 
 
 }
 
-/* Media queries for mobile */ 
-@media (max-width:600px) {
+/* Media queries for mobile */
+@media (max-width:400px) {
 
-    
+    .navbutton1,
+    .navbutton2,
+    .navbutton3,
+    .navbutton4 {
+        padding: 5px 5px;
+        /* Adjust padding for smaller buttons */
+        margin-left: 0;
+        /* Reduce margin for better spacing */
+        margin-right: 1px;
+        font-size: 12px;
+        /* Smaller font size */
+        width: 100px;
+        height: 50px;
+        margin: 10px 0;
+        /* Vertical margin for buttons */
+        display: block;
+        /* Make buttons block elements */
+        width: 100%;
+        /* Optional: make buttons full width */
+
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .header-container {
+        min-height: 100px;
+        min-width: auto;
+
+        position: relative;
+    }
+
+
+    .logo {
+        padding-top: 10px;
+        width: 90px;
+        height: 90px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #navlink {
+        font-size: 9px;
+        text-align: center;
+
+    }
+
+    .welcome h1 {
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+    }
+
+    table {
+        width: 20%;
+    }
+
 
 }
-
