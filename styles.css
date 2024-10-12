@@ -32,7 +32,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 
 }
 
@@ -47,7 +47,7 @@ header {
 .navbutton2,
 .navbutton3,
 .navbutton4 {
-    border: 1px solid;
+    /*border: 1px solid;*/
     padding: 11px 25px;
     margin-left: 10px;
     margin-right: 10px;
@@ -55,22 +55,24 @@ header {
     position: relative;
     border-radius: 4px;
     box-shadow: 0px, 2px, 2px rgba(0, 0, 0, 0.228);
+    font-family: "Mazzard.otf";
+    
 }
 
 .navbutton1 {
-    background-color: #fff0bf;
+    background-color: #FFD166;
 }
 
 .navbutton2 {
-    background-color: #fac4c4;
+    background-color: #FFD166;
 }
 
 .navbutton3 {
-    background-color: #c2eae1;
+    background-color: #FFD166;
 }
 
 .navbutton4 {
-    background-color: #ffcbeb;
+    background-color: #FFD166;
 }
 
 
@@ -81,19 +83,19 @@ header {
 }
 
 .navbutton2:hover {
-    background-color: #fa6666;
+    background-color: #fbc411;
     color: white;
     transition-duration: 1s;
 }
 
 .navbutton3:hover {
-    background-color: #44c9ac;
+    background-color: #fbc411;
     color: white;
     transition-duration: 1s;
 }
 
 .navbutton4:hover {
-    background-color: #f167bc;
+    background-color: #fbc411;
     color: white;
     transition-duration: 1s;
 }
@@ -101,7 +103,7 @@ header {
 
 #navlink {
     text-decoration: none;
-    color: black;
+    color: #1A535C;
 
 }
 
@@ -281,8 +283,8 @@ a:visited {
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: #91c5f0;
-    background-color: #eaeaea;
+    color: white;
+    background-color: #FF6B6B;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -297,7 +299,7 @@ a:visited {
     font-family: "ShineBubble";
     color: #A0D683;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .Teacher img {
