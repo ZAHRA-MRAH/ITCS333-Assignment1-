@@ -9,10 +9,12 @@
 }
 
 
-html,body {
+html,
+body {
     font-family: "Mazzard.otf";
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
+
 
 
 main {
@@ -22,31 +24,31 @@ main {
 
 }
 
-
+/* Styling the header */
 .header-container {
-    background-image:url('Photos used/Sunshine-bg-wel\ -\ Copy.jpg');
+    background-image: url('Photos used/Sunshine-bg-wel\ -\ Copy.jpg');
     min-height: 150px;
 
 }
 
 .header-container {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-wrap: wrap; 
-    padding: 0 10px; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
     background-image: url('Photos used/Sunshine-bg-wel - Copy.jpg');
     min-height: 150px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 
 .logo {
-    width: 25%; 
-    height: auto; 
+    width: 25%;
+    height: auto;
 }
 
-
+/* Styling the navigation buttons */
 .navbutton1,
 .navbutton2,
 .navbutton3,
@@ -62,11 +64,15 @@ main {
     border-radius: 4px;
     box-shadow: 0px, 2px, 2px rgba(0, 0, 0, 0.228);
 }
+
 nav {
     display: flex;
-    flex-wrap: wrap; /* Allow buttons to wrap */
-    justify-content: center; /* Center buttons */
-    width: 100%; /* Full width for nav */
+    flex-wrap: wrap;
+    /* Allow buttons to wrap */
+    justify-content: center;
+    /* Center buttons */
+    width: 100%;
+    /* Full width for nav */
 }
 
 
@@ -87,6 +93,7 @@ nav {
     background-color: #ffd6d6;
 }
 
+/* Hover animation for navigation buttons */
 .navbutton1:hover {
     background-color: #ffc233;
     color: white;
@@ -123,6 +130,7 @@ nav {
     height: 250px;
 }
 
+/* Styling the welcome message */
 .welcome h1 {
     color: #FF6B6B;
     text-align: center;
@@ -131,11 +139,12 @@ nav {
     font-family: 'ShineBubble';
     font-weight: 500;
     font-style: normal;
-    background-image:url('Photos used/Sunshine-bg-wel.jpg');
+    background-image: url('Photos used/Sunshine-bg-wel.jpg');
     background-size: cover;
-    
+
 }
 
+/* Styling the weekly schedule */
 caption {
     font-weight: bold;
     font-size: 30px;
@@ -155,11 +164,13 @@ table {
     background-color: #FFFCF2;
 }
 
-tr{
+
+
+tr {
     background-color: #E7F3FF;
 }
 
-tr:nth-child(even){
+tr:nth-child(even) {
     background-color: #FFB6B9 !important;
 }
 
@@ -171,7 +182,7 @@ table th {
     border-bottom: 2px solid #1A535C;
 }
 
-
+/* Styling the gallery section using grid */
 #GalleryTitle {
     font-weight: bold;
     font-size: 30px;
@@ -213,7 +224,7 @@ table th {
 
 }
 
-
+/* Styling the Announcements section */
 .flex-container {
     display: flex;
     width: 100%;
@@ -271,6 +282,7 @@ table th {
     margin-bottom: 10px;
 }
 
+/* Styling the resources section */
 .PRlinks a:link,
 a:visited {
     color: #FFD166;
@@ -287,9 +299,10 @@ a:visited {
 .PRlinks a:hover {
     color: #FFC233 !important;
     text-decoration-color: #FFC233;
+    /* hover animation for text  */
 }
 
-
+/* Styling the teacher information section  */
 .Teacher-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -310,15 +323,15 @@ a:visited {
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: #ffffff ;
-    background-color: #FFD966 ;
+    color: #ffffff;
+    background-color: #FFD966;
     text-align: center;
     cursor: pointer;
     width: 100%;
 }
 
 .button:hover {
-    background-color: #FFC107 ;
+    background-color: #FFC107;
     color: #f5f5f5;
 }
 
@@ -342,6 +355,7 @@ a:visited {
     text-align: center;
 }
 
+/* Styling the footer */
 footer {
     background-color: #f5f5f5;
     font-family: "Mazzard.otf";
@@ -376,7 +390,8 @@ footer {
 
 @media (max-width: 400px) {
     .welcome h1 {
-        font-size: 20px; /* Adjust for smaller screens */
+        font-size: 20px;
+        /* Adjust for smaller screens */
         text-align: center;
     }
 }
@@ -396,6 +411,7 @@ footer {
 
 
 }
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -404,7 +420,8 @@ footer {
     }
 
     .logo {
-        width: 150px; /* Adjust logo size for mobile */
+        width: 150px;
+        /* Adjust logo size for mobile */
         height: 150px;
     }
 
@@ -412,25 +429,31 @@ footer {
     .navbutton2,
     .navbutton3,
     .navbutton4 {
-        margin: 5px 0; /* Stack buttons vertically */
-        padding: 8px 15px; /* Adjust padding */
-        width: 100%; /* Make buttons full-width */
+        margin: 5px 0;
+        /* Stack buttons vertically */
+        padding: 8px 15px;
+        /* Adjust padding */
+        width: 100%;
+        /* Make buttons full-width */
     }
+
     .grid-container {
-        grid-template-columns: repeat(1, 1fr); /* Stack grid items */
+        grid-template-columns: repeat(1, 1fr);
+        /* Stack grid items */
     }
 }
 
 /* Media queries for mobile */
-@media (max-width:400px) {
+@media (max-width:600px) {
 
-    
-        .navbutton1,
-        .navbutton2,
-        .navbutton3,
-        .navbutton4 {
-            font-size: 14px; /* Adjust font size for smaller screens */
-        }
+
+    .navbutton1,
+    .navbutton2,
+    .navbutton3,
+    .navbutton4 {
+        font-size: 14px;
+        /* Adjust font size for smaller screens */
+    }
 
     header {
         display: flex;
@@ -441,13 +464,16 @@ footer {
 
 
     .header-container {
-        display: flex; /* Ensure it's a flex container */
-        justify-content: center; /* Center items horizontally */
+        display: flex;
+        /* Ensure it's a flex container */
+        justify-content: center;
+        /* Center items horizontally */
         background-image: url('Photos used/Sunshine-bg-wel - Copy.jpg');
         min-height: 150px;
-        padding: 0 10px; /* Add some padding */
+        padding: 0 10px;
+        /* Add some padding */
     }
-    
+
 
     .logo {
         padding-top: 10px;
@@ -464,19 +490,27 @@ footer {
     }
 
     .welcome h1 {
-        font-size: 20px; 
+        font-size: 20px;
         text-align: center;
     }
 
 
-    
-    .flex-container{
+    .flex-container {
         flex-direction: column;
         font-size: smaller;
-    
-    }
-    .grid-container{
-        grid-template-columns: repeat(1,1fr);
 
     }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .col {
+        max-height: 550px;
+        max-width: 750px;
+
+
+    }
+
 }
