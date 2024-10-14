@@ -9,9 +9,11 @@
 }
 
 
-body {
-    font-family: "Mazzard.otf"
+html,body {
+    font-family: "Mazzard.otf";
+    overflow-x: hidden; 
 }
+
 
 main {
     min-height: 1024px;
@@ -27,20 +29,21 @@ main {
 
 }
 
-header {
-    max-height: 150px;
+.header-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    /*padding-bottom: 20px;*/
-
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    padding: 0 10px; 
+    background-image: url('Photos used/Sunshine-bg-wel - Copy.jpg');
+    min-height: 150px;
+    box-sizing: border-box; 
 }
 
-.logo {
-    width: 250px;
-    height: 250px;
 
+.logo {
+    width: 25%; 
+    height: auto; 
 }
 
 
@@ -48,7 +51,8 @@ header {
 .navbutton2,
 .navbutton3,
 .navbutton4 {
-    
+    width: auto;
+    flex: 1;
     padding: 11px 25px;
     margin-left: 20px;
     margin-right: 20px;
@@ -58,6 +62,14 @@ header {
     border-radius: 4px;
     box-shadow: 0px, 2px, 2px rgba(0, 0, 0, 0.228);
 }
+nav {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap */
+    justify-content: center; /* Center buttons */
+    width: 100%; /* Full width for nav */
+}
+
+
 
 .navbutton1 {
     background-color: #ffedc2;
@@ -361,6 +373,14 @@ footer {
 }
 
 
+
+@media (max-width: 400px) {
+    .welcome h1 {
+        font-size: 20px; /* Adjust for smaller screens */
+        text-align: center;
+    }
+}
+
 /* Media queries for desktops */
 @media (min-width: 900px) {
     .header-container header {
@@ -379,7 +399,7 @@ footer {
 @media (max-width: 768px) {
     header {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding: 10px;
     }
 
@@ -396,12 +416,15 @@ footer {
         padding: 8px 15px; /* Adjust padding */
         width: 100%; /* Make buttons full-width */
     }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr); /* Stack grid items */
+    }
 }
 
 /* Media queries for mobile */
 @media (max-width:400px) {
 
-    @media (max-width: 480px) {
+    
         .navbutton1,
         .navbutton2,
         .navbutton3,
@@ -409,7 +432,7 @@ footer {
             font-size: 14px; /* Adjust font size for smaller screens */
         }
 
-    /*header {
+    header {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -418,12 +441,13 @@ footer {
 
 
     .header-container {
-        min-height: 100px;
-        min-width: auto;
-        text-align: center;
-        position: relative;
+        display: flex; /* Ensure it's a flex container */
+        justify-content: center; /* Center items horizontally */
+        background-image: url('Photos used/Sunshine-bg-wel - Copy.jpg');
+        min-height: 150px;
+        padding: 0 10px; /* Add some padding */
     }
-
+    
 
     .logo {
         padding-top: 10px;
@@ -431,7 +455,7 @@ footer {
         height: 90px;
         margin-left: auto;
         margin-right: auto;
-    }*/
+    }
 
     #navlink {
         font-size: 9px;
@@ -440,10 +464,10 @@ footer {
     }
 
     .welcome h1 {
-        font-size: 20px;
+        font-size: 20px; 
         text-align: center;
-        position: relative;
     }
+
 
     
     .flex-container{
