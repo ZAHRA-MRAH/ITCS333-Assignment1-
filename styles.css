@@ -412,6 +412,7 @@ footer {
 
 }
 
+/* Tablet view */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -437,10 +438,7 @@ footer {
         /* Make buttons full-width */
     }
 
-    .grid-container {
-        grid-template-columns: repeat(1, 1fr);
-        /* Stack grid items */
-    }
+
 }
 
 /* Media queries for mobile */
